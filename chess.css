@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-family: monospace;
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+.row1,.row2,.row3,.row4,.row5 {
+    width: 100%;
+    display: flex;
+}
+
+.col {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1 .col:nth-of-type(even) {
+    background-color: yellow;
+}
+.row1 .col:nth-of-type(odd) {
+    background-color: black;
+}
+.row2 .col:nth-of-type(odd) {
+    background-color: yellow;
+}
+.row2 .col:nth-of-type(even) {
+    background-color: black;
+}
+.row3 .col:nth-of-type(even) {
+    background-color: yellow;
+}
+.row3 .col:nth-of-type(odd) {
+    background-color: black;
+}
+.row4 .col:nth-of-type(odd) {
+    background-color: yellow;
+}
+.row4 .col:nth-of-type(even) {
+    background-color: black;
+}
+.row5 .col:nth-of-type(even) {
+    background-color: yellow;
+}
+.row5 .col:nth-of-type(odd) {
+    background-color: black;
+}
